@@ -1,0 +1,13 @@
+{
+    "name": "vinicius/arduino",
+    "authors": [
+        {
+            "name": "Vinícius Silva",
+            "email": "viniciuspwd@hotmail.com"
+        }
+    ],
+    "require": {
+        "hyperthese/php-serial": "^1.0",
+        "mustache/mustache": "^2.12"
+    }
+}

@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:regular,bold';
+@import 'https://code.getmdl.io/1.3.0/material.teal-red.min.css';
+
+html, body {
+  height: 100%;
+}
+
+.page-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3F51B5;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.page-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.page-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.page-content {
+  border-radius: 2px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.page-layout.is-small-screen .page-content {
+  padding: 40px 28px;
+}
+
+.page-content h3 {
+  margin-top: 0;
+}
+
+.page-content .lamp-icon {
+  display: block;
+  padding: 120px 0;
+}
+
+.page-content .lamp-icon:hover {
+  background-color: #ededed;
+}
+
+.page-content .lamp-icon span {
+  font-size: 128px;
+}
+
+.page-content .lamp-icon.off span {
+  color: #9e9e9e !important;
+}
+
+.page-content .lamp-icon.on span {
+  color: #3F51B5 !important;
+}

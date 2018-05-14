@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Arduino</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+
+    <div class="page-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+        <div class="page-ribbon"></div>
+        <main class="page-main mdl-layout__content">
+            <div class="page-container mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="page-content mdl-color--white mdl-shadow--4dp content mdl-cell mdl-cell--8-col">
+                    <a href="javascript:;" onclick="updateStatus()">
+                        <div class="lamp-icon off">
+                            <span class="material-icons">highlight</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="javascript/scripts.js"></script>
+</body>
+</html>
