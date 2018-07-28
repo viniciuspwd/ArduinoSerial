@@ -2,7 +2,7 @@
 Call serial commands to Arduino from PHP
 
 ## Usage
-You will need an PHP environment and Composer for packages managenment.
+You will need a PHP environment and Composer for packages managenment.
 
 Clone this repository:
 `git clone https://github.com/viniciuspwd/ArduinoSerial.git`
